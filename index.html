@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitBody - Aplikasi Diet Sehat Anda</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-heartbeat me-2"></i>FitBody</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Fitur</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">Cara Kerja</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Harga</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item ms-2"><a class="btn btn-light text-success" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Daftar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="text-white text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Wujudkan Tubuh Impian Anda</h1>
+            <p class="lead">Program diet dan olahraga yang dipersonalisasi untuk hasil maksimal. Mulai perjalanan sehat Anda hari ini!</p>
+            <a href="#features" class="btn btn-primary btn-lg">Mulai Sekarang</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Fitur Unggulan Kami</h2>
+                    <p class="text-muted">Semua yang Anda butuhkan untuk mencapai target kesehatan.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-utensils fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Rencana Makan</h5>
+                            <p class="card-text">Dapatkan resep sehat dan lezat yang disesuaikan dengan kebutuhan kalori dan tujuan diet Anda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-dumbbell fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Panduan Olahraga</h5>
+                            <p class="card-text">Video panduan olahraga dari pemula hingga lanjutan yang bisa Anda lakukan di rumah atau di gym.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title">Pelacakan Progress</h5>
+                            <p class="card-text">Pantau berat badan, pengukuran tubuh, dan pencapaian Anda dengan grafik yang mudah dipahami.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Cara Kerja FitBody</h2>
+                    <p class="text-muted">Mudah, Cepat, dan Efektif.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body">
+                            <div class="rounded-circle bg-success text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                                <span class="fs-4 fw-bold">1</span>
+                            </div>
+                            <h5>Daftar & Isi Data</h5>
+                            <p>Buat akun dan isi data diri Anda seperti tinggi, berat badan, dan tujuan kesehatan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body">
+                            <div class="rounded-circle bg-success text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                                <span class="fs-4 fw-bold">2</span>
+                            </div>
+                            <h5>Dapatkan Rencana</h5>
+                            <p>Kami akan menyusun rencana makan dan olahraga yang dipersonalisasi hanya untuk Anda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body">
+                            <div class="rounded-circle bg-success text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                                <span class="fs-4 fw-bold">3</span>
+                            </div>
+                            <h5>Tetap Konsisten</h5>
+                            <p>Ikuti rencana, lacak progress Anda, dan rasakan perubahan positif pada tubuh Anda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-center mb-4">Kalkulator Kebutuhan Kalori Harian (TDEE)</h3>
+                            <form id="tdeeForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="gender" class="form-label">Jenis Kelamin</label>
+                                        <select class="form-select" id="gender" required>
+                                            <option value="male">Pria</option>
+                                            <option value="female">Wanita</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="age" class="form-label">Umur</label>
+                                        <input type="number" class="form-control" id="age" placeholder="Contoh: 25" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="weight" class="form-label">Berat Badan (kg)</label>
+                                        <input type="number" class="form-control" id="weight" placeholder="Contoh: 70" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="height" class="form-label">Tinggi Badan (cm)</label>
+                                        <input type="number" class="form-control" id="height" placeholder="Contoh: 175" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="activity" class="form-label">Tingkat Aktivitas</label>
+                                        <select class="form-select" id="activity" required>
+                                            <option value="1.2">Sangat Jarang Olahraga (Kerja Kantoran)</option>
+                                            <option value="1.375">Jarang Olahraga (1-3 hari/minggu)</option>
+                                            <option value="1.55">Cukup Aktif (3-5 hari/minggu)</option>
+                                            <option value="1.725">Sangat Aktif (6-7 hari/minggu)</option>
+                                            <option value="1.9">Ekstra Aktif (Olahraga Berat & Pekerjaan Fisik)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 text-center mt-4">
+                                        <button type="submit" class="btn btn-success btn-lg">Hitung Kalori Saya</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="tdeeResult" class="mt-4 p-3 bg-light rounded text-center" style="display: none;">
+                                <h4>Kebutuhan Kalori Harian Anda:</h4>
+                                <p class="display-6 fw-bold text-primary"><span id="resultValue"></span> kkal/hari</p>
+                                <p class="mb-0">Ini adalah estimasi untuk mempertahankan berat badan Anda. Untuk menurunkan berat badan, konsumsi kalori lebih sedikit dari angka ini.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Apa Kata Mereka?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img src="https://i.pravatar.cc/150?img=32" class="rounded-circle mb-3" alt="User 1">
+                                        <p>"FitBody benar-benar mengubah hidup saya! Rencana makannya mudah diikuti dan enak. Turun 10 kg dalam 3 bulan!"</p>
+                                        <h5 class="card-title">Andi Pratama</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img src="https://i.pravatar.cc/150?img=47" class="rounded-circle mb-3" alt="User 2">
+                                        <p>"Aku sudah coba banyak diet, tapi baru di FitBody aku merasa terbantu. Panduan olahraganya jelas dan tidak membosankan."</p>
+                                        <h5 class="card-title">Siti Nurhaliza</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Pilih Paket Anda</h2>
+                    <p class="text-muted">Mulai gratis, upgrade kapan saja.</p>
+                </div>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Gratis</h5>
+                            <h6 class="card-price">Rp 0<span class="period">/bulan</span></h6>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> Akses ke 5 resep</li>
+                                <li><i class="fas fa-check text-success"></i> Panduan olahraga dasar</li>
+                                <li><i class="fas fa-times text-danger"></i> Pelacakan progress terbatas</li>
+                                <li><i class="fas fa-times text-danger"></i> Tidak ada dukungan ahli</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100">Pilih Paket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100 border-primary">
+                        <div class="card-header text-center bg-primary text-white">
+                            <span class="badge bg-warning text-dark">Paling Populer</span>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pro</h5>
+                            <h6 class="card-price">Rp 99.000<span class="period">/bulan</span></h6>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> Akses tak terbatas ke resep</li>
+                                <li><i class="fas fa-check text-success"></i> Semua panduan olahraga</li>
+                                <li><i class="fas fa-check text-success"></i> Pelacakan progress lengkap</li>
+                                <li><i class="fas fa-check text-success"></i> Dukungan via email</li>
+                            </ul>
+                            <button class="btn btn-primary w-100">Pilih Paket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Premium</h5>
+                            <h6 class="card-price">Rp 249.000<span class="period">/bulan</span></h6>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> Semua fitur di Pro</li>
+                                <li><i class="fas fa-check text-success"></i> Rencana diet personal</li>
+                                <li><i class="fas fa-check text-success"></i> Konsultasi dengan ahli gizi</li>
+                                <li><i class="fas fa-check text-success"></i> Prioritas dukungan 24/7</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100">Pilih Paket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Pertanyaan yang Sering Diajukan</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    Apakah FitBody cocok untuk pemula?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Tentu saja! Kami memiliki panduan dan rencana yang dirancang khusus untuk pemula, mulai dari olahraga ringan hingga pengenalan makanan sehat.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    Bagaimana cara membatalkan langganan?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Anda bisa membatalkan langganan kapan saja melalui pengaturan akun Anda di aplikasi atau website. Tidak ada biaya tersembunyi atau penalti.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    Apakah resep makanannya sulit dibuat?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Tidak. Kami fokus pada resep yang praktis, menggunakan bahan-bahan yang mudah ditemukan, dan langkah-langkah yang mudah diikuti.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 FitBody. All Rights Reserved.</p>
+            <div>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Daftar Akun Baru</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="signupEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="signupEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signupPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Daftar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
